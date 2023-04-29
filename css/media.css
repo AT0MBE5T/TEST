@@ -4,13 +4,12 @@
   }
   .wrapper {
     flex-direction: column-reverse;
-    border: 1px solid red;
-    width: 100vw;
+    margin-left: 400px;
     align-items: center;
   }
   .wrapper .wrapper__logo {
     position: absolute;
-    bottom: 135px;
+    bottom: 115px;
   }
   .wrapper .wrapper__logo .wrapper__logosvg {
     width: 50px;
@@ -50,7 +49,7 @@
     display: none;
   }
   .nav .list {
-    justify-content: center;
+    justify-content: flex-end;
     gap: 20px;
   }
   .nav .list .dot {
@@ -74,7 +73,7 @@
   }
   .wrapper {
     flex-direction: column-reverse;
-    width: 100vw;
+    margin-left: 400px;
     align-items: center;
   }
   .wrapper .wrapper__logo {
